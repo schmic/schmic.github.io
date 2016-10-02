@@ -1,21 +1,20 @@
 # Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
-## Source: https://github.com/hexojs/hexo/
 
 # Site
 title: schmic.eu
-subtitle: subtitle here
-description: the personal website of me, myself, and I
-author: Michael Scherer
+subtitle: "outdoor, gadgets, tools and any combination of them"
+description: "the personal website of me, myself, and I"
+author: schmic
 language: en
 timezone: Europe/Berlin
 
 # URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://www.schmic.eu
 root: /
 permalink: :year/:month/:title/
 permalink_defaults:
+  lang: en
 
 # Directory
 source_dir: source
@@ -34,7 +33,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -71,9 +70,10 @@ pagination_dir: page
 theme: schmic-blog
 
 # Deployment
-## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
   repo: git@github.com:schmic/schmic.github.io.git
   branch: master
   message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }})"
+
+#EOF
