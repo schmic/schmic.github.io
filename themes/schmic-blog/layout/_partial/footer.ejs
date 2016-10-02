@@ -6,9 +6,9 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <ul class="list-inline text-center">
-                    <% if (theme.twitter_url) { %>
+                    <% if (site.data.social.twitter_url) { %>
                         <li>
-                            <a href="<%- theme.twitter_url%>" target="_blank">
+                            <a href="<%- site.data.social.twitter_url%>" target="_blank">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -17,9 +17,9 @@
                         </li>
                     <% } %>
 
-                    <% if (theme.facebook_url) { %>
+                    <% if (site.data.social.facebook_url) { %>
                         <li>
-                            <a href="<%- theme.facebook_url%>" target="_blank">
+                            <a href="<%- site.data.social.facebook_url%>" target="_blank">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
@@ -28,9 +28,9 @@
                         </li>
                     <% } %>
 
-                    <% if (theme.github_url) { %>
+                    <% if (site.data.social.github_url) { %>
                         <li>
-                            <a href="<%- theme.github_url%>" target="_blank">
+                            <a href="<%- site.data.social.github_url%>" target="_blank">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -39,9 +39,9 @@
                         </li>
                     <% } %>
 
-                    <% if (theme.linkedin_url) { %>
+                    <% if (site.data.social.linkedin_url) { %>
                         <li>
-                            <a href="<%- theme.linkedin_url%>" target="_blank">
+                            <a href="<%- site.data.social.linkedin_url%>" target="_blank">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -50,9 +50,9 @@
                         </li>
                     <% } %>
 
-                    <% if (theme.mailto) { %>
+                    <% if (site.data.social.mailto) { %>
                         <li>
-                            <a href="mailto:<%- theme.mailto%>" target="_blank">
+                            <a href="mailto:<%- site.data.social.mailto%>" target="_blank">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
@@ -61,9 +61,9 @@
                         </li>
                     <% } %>
 
-                    <% if (theme.gitlab_url) { %>
+                    <% if (site.data.social.gitlab_url) { %>
                         <li>
-                            <a href="<%- theme.gitlab_url%>" target="_blank">
+                            <a href="<%- site.data.social.gitlab_url%>" target="_blank">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-gitlab fa-stack-1x fa-inverse"></i>
