@@ -1,3 +1,4 @@
+.deploy_*/
 node_modules/
 themes/landscape
 themes/clean-blog
