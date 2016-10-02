@@ -1,0 +1,5 @@
+node_modules/
+themes/landscape
+themes/clean-blog
+db.json
+public/
