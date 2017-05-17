@@ -62,12 +62,29 @@ pagination_dir: page
 # Extensions
 
 ## Plugins: https://hexo.io/plugins/
-#plugins:
-#- hexo-deployer-git
-#- hexo-generator-cname
+# plugins:
+# - hexo-server
+# - hexo-deployer-git
+# - hexo-generator-cname
+# - hexo-tag-instagram
+# - hexo-instagram-wall
 
 ## Themes: https://hexo.io/themes/
 theme: clean-blog
+
+tagInstagram:
+  captioned: false
+
+instagramWall:  
+  enable: true  
+  # access_token: INSTAGRAM_WALL_TOKEN
+  requestedCount: 18  
+  itemsPerRow: 3  
+  showCaption: true  
+  displayStyle: 'flex'
+  gutterSize: '10px'  
+  overlayColor: 'black'  
+  textColor: 'white'    
 
 # Deployment
 deploy:

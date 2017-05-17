@@ -4,3 +4,4 @@ themes/clean-blog
 !themes/clean-blog/_config.yml
 db.json
 public/
+cache/
