@@ -3,9 +3,9 @@
 
 # Site
 title: schmic.eu
-subtitle: "outdoor, gadgets, tools and any combination of them"
+subtitle: "outdoor, gadgets, computers or any combination of them"
 description: "the personal website of me, myself, and I"
-author: schmic
+author: Michael 'schmic' Scherer
 language: en
 timezone: Europe/Berlin
 
@@ -67,7 +67,7 @@ pagination_dir: page
 #- hexo-generator-cname
 
 ## Themes: https://hexo.io/themes/
-theme: schmic-blog
+theme: clean-blog
 
 # Deployment
 deploy:
