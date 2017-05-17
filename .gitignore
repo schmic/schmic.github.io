@@ -1,6 +1,6 @@
 .deploy_*/
 node_modules/
-themes/landscape
 themes/clean-blog
+!themes/clean-blog/_config.yml
 db.json
 public/
