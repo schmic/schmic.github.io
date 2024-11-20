@@ -4,8 +4,10 @@ languageCode = 'en-us'
 timeZone = "Europe/Berlin"
 
 enableRobotsTXT = true
-paginate = 10
 summaryLength = 0
+
+[pagination]
+pagerSize = 10
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
