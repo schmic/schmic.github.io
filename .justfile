@@ -1,4 +1,4 @@
-image := "klakegg/hugo:ext-alpine"
+image := "floryn90/hugo:ext-alpine"
 
 docker_run := "docker run --rm -it -u 1000:1000 -v .:/src"
 
