@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>schmic.eu</title>
+    <link>http://schmic.eu/</link>
+    <description>Recent content on schmic.eu</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 09 Oct 2023 15:07:56 +0000</lastBuildDate>
+    <atom:link href="http://schmic.eu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo &amp; Congo</title>
+      <link>http://schmic.eu/posts/20231009-welcome/</link>
+      <pubDate>Mon, 09 Oct 2023 15:07:56 +0000</pubDate>
+      <guid>http://schmic.eu/posts/20231009-welcome/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://schmic.eu/sitemap.xml
