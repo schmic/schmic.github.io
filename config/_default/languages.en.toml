@@ -18,7 +18,7 @@ title = "schmic.eu"
 [params.author]
   name = "Michael"
   image = "img/avatar.jpg"
-  headline = "Married, dad of two, cyclist, gamer, geek. <br/><small>Handles pipelines & containers during the day.</small>"
+  headline = "Married, dad of two, cyclist, gamer, certified machinetherapist.<br/><small>Plays with containers during the day.</small>"
   bio = ""
   links = [
   { github = "https://github.com/schmic" },
